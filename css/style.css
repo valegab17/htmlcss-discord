@@ -28,8 +28,6 @@ body {
 
 .pink-card,
 .blue-card {
-    border: 2px dashed black;
-    background-color: pink;
     width: 600px;
     height: 300px;
     margin: 30px;
@@ -141,7 +139,7 @@ p {
 .blue-card {
     display: flex;
     justify-content: center; 
-    background-color: blue;
+
   
 }
 h2{
@@ -178,8 +176,7 @@ h2{
 .grey-content {
     width: 100%;
     margin-top: 40px;
-    background-image: url(../img/wave.svg);
-    color: #f6f6f6;
+    background-image: url(../img/wave.svg);   
 }
 
 .grey-container {
