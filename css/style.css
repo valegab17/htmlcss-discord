@@ -248,10 +248,12 @@ footer {
 }
 
 .salmon {
-    background-color: salmon;
     height: 400px;
     width: 50%;
-    border: 2px dashed black
+    color: #7289da;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 45px;
 }
 
 .green {
