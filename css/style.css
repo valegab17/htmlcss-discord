@@ -256,6 +256,11 @@ footer {
     padding: 45px;
 }
 
+.ita{
+    width: 30px;
+    margin-top: 15px;
+}
+
 .green {
     background-color: lightseagreen;
     flex-grow: 1;
