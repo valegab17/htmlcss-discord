@@ -18,12 +18,14 @@ body {
 }
 
 .btn-white,
-.btn-black {
+.btn-black,
+.btn-blue {
     font-size: 20px;
     border: none;
     background-color: white;
     padding: 10px 15px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .pink-card,
@@ -73,7 +75,7 @@ p {
 
 .logo {
     width: 20%;
-    ;
+    
 
 }
 
@@ -87,7 +89,8 @@ a {
     font-size: 20px;
     text-decoration: none;
     color: #fff;
-    padding: 20px
+    padding: 20px;
+    cursor: pointer;
 }
 
 
@@ -146,8 +149,6 @@ h2{
     font-size: 2rem;
     border-color: black;
     text-align: left;
-    padding-right: 160px;
-    padding-top: 20px;
     line-height: 1.5;
 }
 
@@ -176,7 +177,7 @@ h2{
 .grey-content {
     width: 100%;
     margin-top: 40px;
-    background-image: url(../img/wave.svg);   
+    background-image: url(../img/wave.svg);
 }
 
 .grey-container {
@@ -194,21 +195,47 @@ h2{
 
 /*GREEN CONTENT*/
 .green-content {
-    background-color: grey;
+
+
     width: 100%;
+    height: 175vh;
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    background-image: url(../img/wave.svg);
+  
 }
 
 .green-container {
-    background-color: green;
     width: 80%;
     height: 700px;
     margin: 40px;
-    border: 2px dashed black
+    
 }
 
+.green-content-txt{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 3rem;
+}
+
+#hello-img{
+display: block;
+margin: 0 auto;
+}
+.cta-txt{
+    text-align: center;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    margin-bottom: 50px;
+}
+
+.btn-blue{
+    background-color: #7289da;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
 /*FOOTER*/
 footer {
     background-color: #23272a
